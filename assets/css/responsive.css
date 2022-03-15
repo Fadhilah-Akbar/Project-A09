@@ -1,0 +1,212 @@
+@media all and (max-width:1024px) {
+  .top-wrapper .header-content {
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .top-wrapper .header-content{
+    width: 100%;
+  }
+
+  .container{
+    width: 100%;
+  }
+  nav ul li a{
+    display: none;
+  }
+
+  nav ul li a.icon {
+    display: block;
+    float: right;
+}
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 980px){
+    nav img{
+        position: absolute;
+        top:2%;
+        left: 2%;
+        width: 200px;
+        max-height: 50px;
+        margin-left: 5px;
+    }
+    nav .topnav a{
+        display: none;
+    }
+    nav .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 5%;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 3%;
+        top: 5%;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .element{
+        position: absolute;
+        left:0%;
+        top: 25%;
+        width: 5%;
+    }
+    
+    .top-wrapper .header-content{
+        max-width: 100%;
+    }
+
+    .top-wrapper .header-text{
+        max-width: 100%;
+        text-align: center;
+    }
+    .btn-consult{
+        position: absolute;
+        left: 33%;
+        right: 33%;
+        padding: 5px 15px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 45px;
+    }
+}
+
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+    .lessons{
+        display: inline ;
+        align-items: center
+    }
+    .lesson {
+      width: 100%;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+    
+    /* Add CSS for menu-icon */
+    .menu-icon {
+      display: block;
+    }
+  }
+
+  /* content */
+  /* Responsive Breakpoints */
+@media (max-width:1024px) {
+  .container {
+      padding: 50px 70px;
+  }
+
+  .content-title {
+      font-size: 28px;
+      padding-bottom: 10px;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+      padding: 50px;
+      display: grid;
+  }
+
+  .content-title {
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
+
+  hr {
+      text-align: center;
+      width: 7%;
+      height: 2px;
+  }
+
+  .section-2 img, .section-3 img {
+      width: 70%;
+      display: block;
+      margin: auto;
+      order: -1;
+  }
+  
+  .section-2 .content, .section-3 .content {
+      width: 100%;
+      display: block;
+      padding: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .container {
+      padding: 50px 30px;
+  }
+
+  .content-title {
+      font-size: 22px;
+      padding-bottom: 10px;
+  }
+
+  hr {
+      text-align: center;
+      width: 10%;
+      height: 1.5px;
+  }
+
+  .btn {
+      padding: 8px 30px;
+  }
+
+  a {
+      font-size: 14px;
+  }
+
+  .section-2 p, .section-3 p {
+      font-size: 14px;
+  }
+}
+
+/* article */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .article {
+    width: 45%;
+    margin: 2.5%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .article {
+    width: 100%;
+  }
+}
+
+  /* footer */
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+}
