@@ -92,6 +92,7 @@ nav .topnav li a{
 }
 
 .top-wrapper .header-content img{
+    float: right;
     max-width: 90%;
 }
 
