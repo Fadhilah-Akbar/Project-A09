@@ -13,13 +13,8 @@ a {
  text-decoration: none;
 }
 
-hr{
-    width:50px;
-    border: 2px solid black;
-}
-
 .container {
-    max-width: 1170px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -32,7 +27,8 @@ hr{
 header{
     margin: 0 50px;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    width: 100%;
 }
 
 .element{
@@ -55,11 +51,12 @@ nav img{
 nav .topnav{
     float: right;
     margin-top: 20px;
+    margin-right: 150px;
 }
 nav .topnav a{
     color: #1F1534;
-    margin-right: 30px;
     display: inline-block;
+    margin-right: 25px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -77,7 +74,6 @@ nav .topnav li a{
 .top-wrapper{
     padding-top: 180px;
     padding-bottom: 300px;
-    padding-left: 50px;
 }
 
 .top-wrapper .header-text{
@@ -89,10 +85,10 @@ nav .topnav li a{
 .top-wrapper .header-content{
     float: right;
     max-width: 65%;
+    margin-right: -10%;
 }
 
 .top-wrapper .header-content img{
-    float: right;
     max-width: 90%;
 }
 
@@ -122,14 +118,13 @@ nav .topnav li a{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #FFFFFF;
-    background-image:url('img/bg_element.svg');
+    background-image:url('assets/img/bg_element.svg');
     background-position: center;
     background-repeat: no-repeat; 
     width:100%;
     background-size: auto; 
     text-align: center;
 }
-  
   
 .heading {
     padding-top: 80px;
@@ -141,9 +136,15 @@ nav .topnav li a{
   
 .heading h2 {
     font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.heading hr{
+    margin: 0 auto;
 }
   
 .heading p {
+    margin-top: 5px;
     font-weight: normal;
     color: #7D7987;
    
@@ -271,11 +272,9 @@ nav .topnav li a{
     padding-bottom: 30px;
 }
 
-.hr-content {
-    position: absolute;
-    width: 5%;
-    height: 2.5px;
-    background-color: black;
+hr{
+    width:50px;
+    border: 2px solid black;
 }
 
 .btn-light {
@@ -322,12 +321,6 @@ nav .topnav li a{
   
   .article-wrapper h2 {
     text-align: center;
-  }
-  
-  hr {
-    width: 5%;
-    height: 3px;
-    background-color: black;
   }
   
   .heading {

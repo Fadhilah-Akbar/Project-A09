@@ -1,26 +1,3 @@
-@media all and (max-width:1024px) {
-  .top-wrapper .header-content {
-      width: 100%;
-      margin-right: 0;
-  }
-
-  .top-wrapper .header-content{
-    width: 100%;
-  }
-
-  .container{
-    width: 100%;
-  }
-  nav ul li a{
-    display: none;
-  }
-
-  nav ul li a.icon {
-    display: block;
-    float: right;
-}
-}
-
 /* For Tablets */
 @media all and (max-width: 1000px) {
     .lesson {
@@ -34,6 +11,13 @@
   }
   
   @media screen and (max-width: 980px){
+    header,nav{
+      margin: 0 auto;
+      padding: 0;
+    }
+    header{
+      margin-bottom: 300px;
+    }
     nav img{
         position: absolute;
         top:2%;
@@ -68,14 +52,21 @@
         width: 5%;
     }
     
+    .top-wrapper{
+      width: 100%;
+      padding: 50px;
+      margin-bottom: 400px;
+    }
     .top-wrapper .header-content{
-        max-width: 100%;
+        max-width: 90%;
+        margin-right: -15%;
     }
 
     .top-wrapper .header-text{
         max-width: 100%;
         text-align: center;
     }
+    
     .btn-consult{
         position: absolute;
         left: 33%;
@@ -84,13 +75,36 @@
         color: #FFFFFF;
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 14px;
         margin-top: 45px;
+        opacity: 1;
     }
+
+    .btn-consult:hover{
+      opacity: 0.8;
+    }
+    
 }
 
   /* For Smartphones */
-  @media all and (max-width: 670px) {
+  @media all and (max-width: 720px) {
+    header{
+      padding: 0;
+      margin: 0 auto;
+      max-height: 700px;
+    }
+    .top-wrapper .header-content{
+      max-width: 90%;
+      margin-right: -15%;
+      margin-bottom: 0;
+      padding: 0;
+  }
+
+  .top-wrapper .header-text{
+    margin-top: 60px;
+      max-width: 100%;
+      text-align: center;
+  }
     .lessons{
         display: inline ;
         align-items: center
@@ -154,6 +168,11 @@
 }
 
 @media (max-width:500px) {
+  header{
+    padding: 0;
+    margin: 0 auto;
+    max-height: 600px;
+  }
   .container {
       padding: 50px 30px;
   }
